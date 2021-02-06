@@ -130,3 +130,5 @@ dmypy.json
 
 # PyCharm config
 .idea/
+
+draft/
