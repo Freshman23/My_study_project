@@ -6,12 +6,11 @@ while len(rat_list) < 15:  # ввод до 15 значений
     if user_num in rat_list:
         position = len(rat_list) - rat_list[::-1].index(user_num)
         rat_list.insert(position, user_num)
+    elif user_num < rat_list[len(rat_list) - 1]:
+        rat_list.append(user_num)
     else:
         for position, num in enumerate(rat_list):
             if user_num > num:
                 rat_list.insert(position, user_num)
-                break
-            elif position == len(rat_list) - 1:
-                rat_list.append(user_num)
                 break
     print('Обновленная структура рейтингов:', rat_list)
