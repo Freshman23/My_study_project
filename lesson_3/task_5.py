@@ -3,6 +3,10 @@ quit_mark = False
 
 
 def number_sum_func(number_str):
+    """Функция принимает строку, разбивает на элементы списка, числовые элементы переводит в int,
+    суммирует их и добавляет в глобальную переменную total_sum.
+    Также при нахождении в элементах слова 'quit' активирует метку quit_mark, чтобы в последствие завершить программу.
+    """
     str_list = number_str.split(' ')
     number_list = []
     global total_sum, quit_mark
