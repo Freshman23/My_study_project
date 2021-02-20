@@ -1,6 +1,6 @@
 def data_collect(**kwargs):
-    data_string = ', '.join(kwargs.values())
-    return data_string
+    return ', '.join(kwargs.values())
+
 
 name = input('Введите имя: ')
 surname = input('Введите фамилию: ')
