@@ -1,0 +1,7 @@
+Ivanov 40000
+Petrov 19000
+Sidorov 20000
+Kruglov 25000
+Bolshakov 15000
+Korolev 35000
+Tereshkov 18000
