@@ -16,6 +16,7 @@ class Engineer(Worker):
         return self._income['wage'] + self._income['bonus']
 
 
-a = Engineer('Jack', 'Peterson', 'engineer', 3000, 1000)
-print('Worker full name is', a.get_full_name())
-print('Worker income is', a.get_total_income())
+worker = Engineer('Jack', 'Peterson', 'engineer', 3000, 1000)
+print(worker.__dict__)
+print('Worker full name is', worker.get_full_name())
+print('Worker income is', worker.get_total_income())
