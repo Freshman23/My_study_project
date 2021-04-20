@@ -1,0 +1,5 @@
+Informatics: 100(lec) 50(pr) 30(lab).
+Maths: 110(lec) 70(pr) -.
+Physics: 70(lec) - 40(lab).
+Chemistry: 70(lec) 20(pr) 20(lab).
+Physical culture: - 100(pr) -.
